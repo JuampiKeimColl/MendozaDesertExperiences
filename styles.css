@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Estilos del encabezado y menú */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Personaliza el estilo de cada sección según su ID (inicio, experiencias, precios, contacto) */
+#inicio {
+    background-image: url('image/imagen_inicio.jpg'); /* Ruta a la imagen de inicio */
+    background-color: #fff; /* Fallback color en caso de que la imagen no se cargue */
+    /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
+    background-size: 1600px 720px;
+    
+    /* Centra la imagen de fondo verticalmente y la alinea hacia arriba */
+    background-position: center top;
+}
+
+#experiencias {
+    background-image: url('imagen_experiencias.jpg'); /* Ruta a la imagen de experiencias */
+    background-color: #f9f9f9;
+    /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
+    background-size: cover;
+    
+    /* Centra la imagen de fondo verticalmente y la alinea hacia arriba */
+    background-position: center top;
+}
+
+#precios {
+    background-image: url('imagen_precios.jpg'); /* Ruta a la imagen de precios */
+    background-color: #fff;
+    /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
+    background-size: cover;
+    
+    /* Centra la imagen de fondo verticalmente y la alinea hacia arriba */
+    background-position: center top;
+}
+
+#contacto {
+    background-image: url('imagen_contacto.jpg'); /* Ruta a la imagen de contacto */
+    background-color: #f9f9f9;
+    /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
+    background-size: cover;
+    
+    /* Centra la imagen de fondo verticalmente y la alinea hacia arriba */
+    background-position: center top;
+}
+
+    
