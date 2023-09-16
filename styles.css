@@ -41,7 +41,7 @@ section {
 
     /* Personaliza el estilo de cada sección según su ID (inicio, experiencias, precios, contacto) */
     #inicio {
-    background-image: url('imagen_inicio.jpg'); /* Ruta a la imagen de inicio */
+    background-image: url('image/imagen_inicio.png'); /* Ruta a la imagen de inicio */
     background-color: #fff; /* Fallback color en caso de que la imagen no se cargue */
 
     /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
@@ -52,7 +52,7 @@ section {
 }
 
 #experiencias {
-    background-image: url('imagen_experiencias.jpg'); /* Ruta a la imagen de experiencias */
+    background-image: url('image/imagen_experiencias.png'); /* Ruta a la imagen de experiencias */
     background-color: #f9f9f9;
     /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
     background-size: cover;
@@ -62,7 +62,7 @@ section {
 }
 
 #precios {
-    background-image: url('imagen_precios.jpg'); /* Ruta a la imagen de precios */
+    background-image: url('image/imagen_precios.png'); /* Ruta a la imagen de precios */
     background-color: #fff;
     /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
     background-size: cover;
@@ -72,7 +72,7 @@ section {
 }
 
 #contacto {
-    background-image: url('imagen_contacto.jpg'); /* Ruta a la imagen de contacto */
+    background-image: url('image/imagen_contacto.png'); /* Ruta a la imagen de contacto */
     background-color: #f9f9f9;
     /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
     background-size: cover;
@@ -81,4 +81,27 @@ section {
     background-position: center top;
 }
 
-    
+.menu {
+    background-color: #a69f9f;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Aplicar estilos diferentes para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    /* Cambiar el tamaño de la fuente para dispositivos móviles */
+    body {
+        font-size: 16px;
+    }
+
+    /* Alinear el menú verticalmente en dispositivos móviles */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
