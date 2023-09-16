@@ -39,15 +39,16 @@ section {
     background-position: center;
 }
 
-/* Personaliza el estilo de cada sección según su ID (inicio, experiencias, precios, contacto) */
-#inicio {
-    background-image: url('image/imagen_inicio.jpg'); /* Ruta a la imagen de inicio */
+    /* Personaliza el estilo de cada sección según su ID (inicio, experiencias, precios, contacto) */
+    #inicio {
+    background-image: url('imagen_inicio.jpg'); /* Ruta a la imagen de inicio */
     background-color: #fff; /* Fallback color en caso de que la imagen no se cargue */
+
     /* Ajusta el tamaño de la imagen de fondo para cubrir toda la sección */
-    background-size: 1600px 720px;
-    
-    /* Centra la imagen de fondo verticalmente y la alinea hacia arriba */
-    background-position: center top;
+    background-size: cover;
+
+    /* Centra la imagen de fondo horizontalmente y la alinea hacia la derecha */
+    background-position: right top;
 }
 
 #experiencias {
